@@ -30,7 +30,7 @@ for(var num1=0; num1<=3; num1++)
  */
 
   var msg1 = "hello"
-  var msg2 = "world"
+  var msg2 = "world!"
 
   for(var num1=1;num1<=msg1.length;num1++)
   {
