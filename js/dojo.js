@@ -7,3 +7,6 @@ function abc(num) {
     }
     return arr;
 }
+
+dojo=abc(5);
+console.log(dojo);
