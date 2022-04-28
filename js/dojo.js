@@ -1,12 +1,8 @@
-function abc(num) {
-    var arr=[];
-    for(var i=0; i<num; i++){
-        if(i%2 == 0) {
-            arr.push(i);
+function abc(arr) {
+    for(var i=0; i<arr.length; i++) {
+        if(arr[i]<0) {
+            arr[i]='dojo';
         }
     }
     return arr;
 }
-
-dojo=abc(5);
-console.log(dojo);
