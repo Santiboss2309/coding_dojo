@@ -1,10 +1,11 @@
 function abc(number) {
-    var arr=[];
-    for(var i=0; i<number; i++){
-        arr.push(0)
+    var sum=0;
+    for(var i=0; i<=number; i++){
+        sum=sum + i;
     }
-    return arr;
+    console.log(sum);
+    return sum+10;
 }
 
-output=abc(5)
-console.log(output)
+output=abc(2);
+console.log(output);
