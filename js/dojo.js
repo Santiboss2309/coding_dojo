@@ -1,11 +1,11 @@
-function abc(number) {
-    var sum=0;
-    for(var i=0; i<=number; i++){
-        sum = sum + i;
+function looping(x,y){
+    for(var i=0; i<x; i++){
+        for(var j=0; j<y; j++){
+            console.log(i*j);
+        }
     }
-    console.log(sum);
-    return sum+10;
+    return x*y;
 }
 
-output=abc(2) + abc(3);
-console.log(output);
+z=looping(2,3);
+console.log(z);
