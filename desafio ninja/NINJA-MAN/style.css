@@ -9,14 +9,14 @@
 }
 .wall 
 {
-    background-color: purple;
+    background-color: darkcyan;
     height: 40px;
     width: 40px;
     display: inline-block;
 }
 .sushi 
 {
-    background-color: rgb(50, 5, 95);
+    background-color: rgb(130, 6, 253);
     height: 40px;
     width: 40px;
     display: inline-block;
