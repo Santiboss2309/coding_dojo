@@ -5,19 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DragonBallZ/Battlefield</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <canvas id="namek" width="800" height="600" style="border:1px solid #000000">
-    </canvas>
-
-    <script>
-        var canvas = document.getElementById("namek");
-        var ctx = canvas.getContext("2d")
-        var img = new Image (); 
-        img.src = "img/namek.jpg"
-        img.onload = function(){
-  ctx.drawImage(img, 0, 0);
-}
-    </script>
+    <div class="game">
+        <img class="image1" src="img/cuadrovidagoku.png" />
+        <img class="image2" src="img/barravidagoku.png" />
+    </div> 
+    <img class="img1" src="img/cuadrovidaminicell.png"/>
 </body>
 </html>
